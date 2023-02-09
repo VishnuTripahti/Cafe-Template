@@ -1,0 +1,211 @@
+body {
+    font-family: "Inconsolata", sans-serif;
+    overflow-x: hidden;
+    /* background-color: #fdf5e6!important; */
+}
+
+.font {
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+/* ------------------------HEADER---------------------- */
+
+.header {
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+
+.nav-bar {
+    position: relative;
+    top: -7px;
+    padding: 8px 16px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding-inline: 11%;
+}
+
+.nav-bar li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+
+.bgimage img {
+    position: relative;
+    top: -28px;
+    width: 102vw;
+    z-index: -5;
+
+}
+
+.text {
+    margin: -29px 20px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.imgtext h1 {
+    text-align: center;
+    margin-top: -445px;
+    font-size: 90px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+}
+
+.add {
+    position: absolute;
+    right: 7px;
+    margin: 52px 10px;
+    font-size: 15px;
+    color: white;
+}
+/* ---------------------MAIN------------------ */
+.main {
+    margin: 5% 26%;
+}
+
+.aboutthecafe h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 3px 9px;
+    margin: 10% 32%;
+    letter-spacing: 4px;
+    color: white;
+    background: #000;
+}
+
+.aboutthecafe p {
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.highlighttext {
+    background-color: #f1f1f1;
+    border-left: 2px solid #ccc;
+    color: green;
+    border-width: 5px;
+    margin: 5% 0%;
+    padding: 1.5% 1.5%;
+}
+
+.aboutthecafe img {
+    width: 100%;
+}
+
+.timing {
+    font-size: 18px !important;
+    line-height: 1.5;
+}
+
+.themenu {
+    margin: 12% 21%;
+}
+
+.eat {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 2.5%;
+    box-shadow: 0 0 11px rgba(17, 16, 16, 0.2);
+    margin-bottom: 2%;
+}
+
+.eat p {
+
+    padding-top: 2%;
+    font-size: 18px !important;
+
+}
+
+.menutext {
+    margin-bottom: 5%;
+    padding-top: 18px !important;
+    padding-bottom: 50px !important;
+    padding-left: 2%;
+    box-shadow: 0 0 11px rgba(17, 16, 16, 0.2);
+}
+
+.menutext h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menutext p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #757575;
+}
+
+#find {
+    margin: 0% 4%;
+}
+
+.findus p {
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.findus p strong {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    /* border-top: white; */
+    /* border-left: white; */
+    /* border-right: white; */
+    border: 1px solid #757575;
+    padding: 2%;
+    margin-top: 2%;
+
+}
+
+.btn {
+    /* margin: 2% 1%; */
+    font-size: 20px;
+    border: none;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    padding: 2% 2%;
+
+}
+
+#name {
+    color: #757575;
+}
+/* ----------------FOOTER------------------ */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #f1f1f1;
+}
+
+.footer p {
+    padding-top: 8%;
+    text-align: center;
+}
